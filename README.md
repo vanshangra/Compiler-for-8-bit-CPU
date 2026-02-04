@@ -168,10 +168,7 @@ Potential improvements could include:
 - More sophisticated error handling and reporting
 - Optimization passes
 - Symbol table management
-
-## License
-
-This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
+- 
 
 ## Contributing
 
