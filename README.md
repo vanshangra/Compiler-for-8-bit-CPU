@@ -25,8 +25,8 @@ This project implements a basic compiler consisting of a lexical analyzer (lexer
 ├── parser.c                # AST node structure definitions
 ├── parserimplementation.c  # Parser implementation
 ├── generation.c            # Assembly code generation
-├── input.txt              # Sample input source file
-└── LICENSE                # Apache License 2.0
+├── input.txt               # Sample input source file
+└── LICENSE                 # Apache License 2.0
 ```
 
 ## Supported Language Syntax
@@ -130,8 +130,8 @@ The code generator traverses the AST and emits assembly instructions for an 8-bi
 The compiler recognizes the following AST node types:
 - `NODE_VAR_DECL`: Variable declaration
 - `NODE_ASSIGN`: Assignment statement
-- `NODE_Arith_OP`: Arithmetic operation
-- `NODE_conditional`: Conditional statement (if)
+- `NODE_ARITH_OP`: Arithmetic operation
+- `NODE_CONDITIONAL`: Conditional statement (if)
 
 ## Token Types
 
